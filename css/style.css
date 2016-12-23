@@ -1,0 +1,141 @@
+
+html,body{
+  margin: 0px;
+}
+
+/* ----SVG IMG---- */
+svg{
+  fill: white;
+}
+#logo {
+  display: block;
+  text-decoration: none;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-90%,-50%);
+}
+#rectangle {
+  stroke-dasharray: 80;
+  stroke-dashoffset: 80;
+  animation: dash2 4s linear infinite;
+}
+@keyframes dash2 {
+  0% {
+    stroke-dashoffset: 80;
+  }
+  50% {
+    stroke-dashoffset: 0;
+  }
+  100% {
+    stroke-dashoffset: -80;
+  }
+}
+/* ----SVG IMG END---- */
+
+.navbar{
+  font-family: 'Indie Flower', cursive;
+  margin-bottom: 0;
+	background-color: rgba(0, 0, 0, 0.84);
+	font-size: 27px;
+  font-weight: bold;
+	letter-spacing: 4px;
+  padding-top: 20px;
+}
+.navbar-nav li a {
+ line-height: 5px;
+}
+.name{
+  font-size: 27px;
+  font-weight: bold;
+  line-height: 5px;
+}
+h1,h2,h3,h4{
+  color:white;
+}
+.style{
+  height:100%;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.partone{
+  background-image: url(https://rishabhsaluja.github.io/bkg-img/1.jpg);
+  padding: 30%;
+  text-align: center;
+}
+.parttwo{
+  padding: 20%;
+  background-image: url(https://rishabhsaluja.github.io/bkg-img/2.jpg); 
+}
+.lang{
+  background-image: url(https://rishabhsaluja.github.io/bkg-img/3.png);
+}
+.padbottom{
+  padding-bottom: 15px;
+}
+.line-separator {
+	height: 2px;
+	background: #717171;
+	border-bottom: 1px solid #313030;
+}
+.pad-top{
+  padding-top: 20px;
+}
+
+.pad-bottom {
+	padding-bottom: 0px;
+}
+.icon{
+  font-size: 10rem;
+  color: white;
+  display: inline-flex;
+  background-color: black;
+  padding: 20px;
+  border-radius: 50%;
+  opacity: 0.5;
+}
+.icon:hover{
+  font-size: 10rem;
+  background-color: white;
+  color: black;
+  cursor: pointer;  
+}
+.port{
+  background-color: black;
+  padding: 15px;
+  padding-right: 20px;
+}
+
+
+footer {
+	font-family: sans-serif;
+	font-size: 14px;
+	background: #222;
+	color: #ccc;
+	padding: 15px;
+	text-align: center;
+}
+.contact{
+  font-family: 'Indie Flower', cursive;
+  margin: 0px;
+  padding-right: 70px;
+  padding-left: 70px;
+  padding-bottom: 5px;
+}
+.contact h4{
+  color: red;
+  font-size: 35px;
+}
+.contact h2{
+  color:black;
+  font-size: 30px;
+  text-align: right;
+}
+.p{
+  color:black;
+  font-size: 18px;
+  text-align: left;
+}
